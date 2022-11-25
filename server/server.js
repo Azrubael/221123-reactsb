@@ -21,8 +21,8 @@ const games = {}
 // Функция start(), запускающая WebSocker Server, прослушивающая клиента,
 // выполняющая некие преобразования и отправляющая данные игры на фронтенд
 function start() {
-    const wss = new WebSocket.Server({port: 9001 }, () =>
-        console.log('WebSocket Server started on port 9001')
+    const wss = new WebSocket.Server({port: 3000 }, () =>
+        console.log('WebSocket Server started on port 3000')
     )
 
     // Подключение прослушивателей событий

@@ -20,7 +20,7 @@ const Login = () => {
       <h2>Autirization</h2>
       <form onSubmit={startPlay}>
         <div className="field-group">
-          <div><label htmlForm="nickname">Your Name</label></div>
+          <div><label tnmlform="nickname">Your Name</label></div>
           <input
             type="text"
             name="nickname"
