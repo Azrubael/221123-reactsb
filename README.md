@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+#Морской бой // React.js+Node.js+WebSocket
+(https://www.youtube.com/watch?v=YV6RaVu0rtI)
+(https://loftschool.com)
+Требуется запуск WebSocket сервера 'npm run dev' из папки
+'./server', сервер будет запущен по адресу 'localhost:3000'
+Для игры требуется подключиться из двух разных браузеров по ссылке
+'localhost:3000'.
+
+##При запуске сборки или старта будет сообщение об ошибке
+	$ npm run build
+[eslint]
+src\pages\GamePage.js
+  Line 91:5:  React Hook useEffect has a missing dependency: 'gameId'.
+  Either include it or remove the dependency array  react-hooks/exhaustive-deps
+Указанная выше ошибка простыми методами не решается. У ведущего-автора передачи она тоже была, он ей почему-то не занимался.
+

@@ -17,10 +17,10 @@ const Login = () => {
   }
   return (
     <div>
-      <h2>Autirization</h2>
+      <h2>Autorization</h2>
       <form onSubmit={startPlay}>
         <div className="field-group">
-          <div><label tnmlform="nickname">Your Name</label></div>
+          <div><label htmlFor="nickname">Your Name</label></div>
           <input
             type="text"
             name="nickname"

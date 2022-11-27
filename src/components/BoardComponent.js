@@ -4,11 +4,8 @@ import CellComponent from './CellComponent'
 // Эта функция отвечает за итерацию по игровой доске
 // В цикле происходит обработка входных данных для всех ячеек
 const BoardComponent = ({ board, setBoard, shipsReady, isMyBoard, canShoot, shoot }) => {
-
   const boardClasses = ['board']
-
   console.log(board)
-
   // Функция принимает те координаты, по которым мы кликаем на ячейке
   function addMark(x, y) {
     if (!shipsReady && isMyBoard) {
